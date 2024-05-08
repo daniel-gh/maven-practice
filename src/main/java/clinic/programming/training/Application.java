@@ -6,7 +6,7 @@ import org.apache.commons.lang3.StringUtils;
 
 /**
  * 
- * @author Daniel
+ * @author Daniel LXX
  *
  */
 public class Application {
