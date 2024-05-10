@@ -24,8 +24,8 @@ public class Application {
     	System.out.println ("Starting Application");
     	Application app = new Application();
     	/**
-    	 * 
-    	 */
+		 * 
+		 */
 		int sum = 0;
 		for (int i=0; i<5 ;  i++) {
 			sum += i;
