@@ -3,9 +3,10 @@ package clinic.programming.training;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * 
- * @author Daniel LXX
+ * This is the main class for the application. It contains methods for counting
+ * words and the main method to run the application.
  *
+ * @author Daniel LXX
  */
 public class Application {
 
