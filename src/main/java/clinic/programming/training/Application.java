@@ -11,6 +11,7 @@ public class Application {
 
 	public int countWords(String words) {
 		String[] separateWords = StringUtils.split(words, ' ');
+
 		return (separateWords == null) ? 0 : separateWords.length;
 	}
 	
@@ -23,14 +24,13 @@ public class Application {
     public static void main (String[] args) {
     	System.out.println ("Starting Application");
     	Application app = new Application();
-    	/**
-		 * 
-		 */
+    	
+		// to sum numbers
 		int sum = 0;
-		for (int i=0; i<5 ;  i++) {
+		for (int i = 0; i < 5; i++) {
 			sum += i;
 		}
-		
+
 		app.countWords("Hello World Maven");
     }
 }

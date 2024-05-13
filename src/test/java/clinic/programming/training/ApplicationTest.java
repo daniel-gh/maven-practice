@@ -1,12 +1,11 @@
 package clinic.programming.training;
 
+//import clinic.programming.training.Application;
+import static org.junit.Assert.assertTrue;
+
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
-
-import clinic.programming.training.Application;
-
-import static org.junit.Assert.*;
 
 public class ApplicationTest {
     private Application app;
